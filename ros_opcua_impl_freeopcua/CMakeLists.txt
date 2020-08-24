@@ -8,7 +8,7 @@ set(BUILD_TESTING OFF)
 
 add_subdirectory(freeopcua)
 
-set(FreeOpcUa_LIBRARIES opcua)
+set(FreeOpcUa_LIBRARIES opcuaprotocol opcuacore opcuaclient opcuaserver)
 
 find_package(catkin REQUIRED
   roscpp
